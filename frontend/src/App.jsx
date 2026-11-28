@@ -37,8 +37,7 @@ export default function App() {
               <a className="btn btn-claro" href="#visitanos">Visítanos</a>
             </div>
           </div>
-          <div className="hero-foto" role="img" aria-label="Foto del local"></div>
-          <img className="hero-foto" src="public/negocio/principal.png" alt="foto presentacion"></img>
+          <img className="hero-foto" src="/negocio/hero.png" alt="Pie de calabaza y café de maíz de Mamá Julia" />
         </section>
 
         <section className="destacadas">

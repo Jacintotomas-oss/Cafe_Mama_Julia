@@ -9,7 +9,7 @@ export default function Menu(){
 
     useEffect(() => {
         // Fetch categories from API
-        fetch(`${API}/categorias`)
+        fetch(`${API}/menu/`)
             .then((response) => response.json())
             .then((data) => setCategorias(data));
     }, []);
